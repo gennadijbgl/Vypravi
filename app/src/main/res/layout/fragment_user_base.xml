@@ -1,0 +1,96 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/hello"
+        android:id="@+id/textHello"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:textColor="#000000"
+        android:typeface="sans"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/hello"
+        android:id="@+id/edit_user"
+        android:layout_gravity="center"
+        android:textSize="28dp"
+        android:textColor="#000000"
+        android:maxLines="3"
+        android:minLines="1"
+        android:layout_marginBottom="20dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:src="@drawable/header_bg"
+        android:id="@+id/imageUserPic"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/balls"
+            android:id="@+id/textView2"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:typeface="serif"/>
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editBalls"
+            android:layout_gravity="center_horizontal"
+            android:text="125"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:background="@color/background_material_light"
+            android:gravity="center_vertical|center_horizontal"
+            android:enabled="false"
+            android:focusableInTouchMode="false"
+            android:typeface="serif"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:text="@string/user_change_pic"
+
+        android:id="@+id/bChangePicture"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:theme="@style/button_normal_deep_purple"
+        android:typeface="normal"/>
+
+    <Button
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:text="@string/item_add"
+        android:id="@+id/bAdd"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:theme="@style/button_normal_deep_purple"
+        android:typeface="normal"/>
+
+</merge>

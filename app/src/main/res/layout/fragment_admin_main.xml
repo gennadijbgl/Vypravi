@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <include layout="@layout/fragment_user_base"> </include>
+        <Button
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="Карыстачы"
+            android:id="@+id/bUsers"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:theme="@style/button_normal_deep_purple"
+            android:typeface="normal"/>
+        <Button
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:id="@+id/bLogOut"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:theme="@style/button_normal_deep_purple"
+            android:typeface="normal"/>
+    </LinearLayout>
+</LinearLayout>

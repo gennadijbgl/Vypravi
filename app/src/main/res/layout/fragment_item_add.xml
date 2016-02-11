@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:id="@+id/linearLayout2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/material_grey_100"
+    android:nestedScrollingEnabled="true">
+
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:windowSoftInputMode="stateVisible|adjustPan"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/item_photo"
+        android:id="@+id/item_a_photo_text"
+
+        app:met_floatingLabel="highlight"
+        android:layout_gravity="center_horizontal"
+        app:met_floatingLabelPadding="-2dp"
+
+        app:met_underlineColor="@color/md_deep_purple_600"
+        android:gravity="center"
+        android:enabled="true"
+        android:editable="false"
+        android:layout_alignParentStart="false"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/item_a_photo"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:minHeight="120dp"
+        android:maxHeight="180dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/item_a_photo_text" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/item_title"
+        android:ems="10"
+        android:id="@+id/item_a_title"
+        app:met_underlineColor="@color/md_deep_purple_600"
+        app:met_floatingLabel="highlight"
+        android:layout_gravity="center_horizontal"
+        android:windowSoftInputMode="stateVisible|adjustPan"
+        android:layout_below="@+id/item_a_photo"
+        android:layout_centerHorizontal="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:windowSoftInputMode="stateVisible|adjustPan"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/item_description"
+        android:id="@+id/item_a_desc"
+        app:met_floatingLabel="highlight"
+        android:layout_gravity="center_horizontal"
+        app:met_floatingLabelPadding="-2dp"
+
+        app:met_underlineColor="@color/md_deep_purple_600"
+        android:layout_below="@+id/item_a_title"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:windowSoftInputMode="stateVisible|adjustPan"
+        android:hint="@string/item_date_set"
+        android:ems="10"
+        android:id="@+id/item_a_date"
+        app:met_floatingLabel="highlight"
+        android:layout_gravity="center_horizontal"
+        android:editable="false"
+app:met_floatingLabelPadding="-2dp"
+
+        app:met_floatingLabelTextColor="#445566"
+        app:met_underlineColor="@color/md_deep_purple_600"
+        android:gravity="center_horizontal"
+        android:theme="@style/mytext"
+        android:layout_below="@+id/item_a_desc"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item_add"
+            android:id="@+id/bItemAdd"
+            android:layout_gravity="center_horizontal|bottom"
+            android:theme="@style/button_normal_deep_purple"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false" />
+    </RelativeLayout>
+

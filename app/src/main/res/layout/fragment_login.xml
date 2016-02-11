@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:background="@color/background_material_light">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:hint="@string/login"
+        android:ems="10"
+        android:id="@+id/editLoginL"
+        android:windowSoftInputMode="stateVisible|adjustPan"
+        app:met_floatingLabel="highlight"
+        android:layout_gravity="center_horizontal"
+        android:text="asdfgh"/>
+
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editLoginP"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        app:met_floatingLabel="highlight"
+        android:windowSoftInputMode="stateVisible|adjustPan"
+        android:hint="@string/password"
+        android:layout_marginTop="10dp"
+        android:text="asd123"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="@string/butt_login"
+        android:id="@+id/bLoginL"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/button_normal_purple"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>

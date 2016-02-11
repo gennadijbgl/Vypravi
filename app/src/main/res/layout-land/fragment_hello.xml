@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:minHeight="60dp">
+
+    <Button
+
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/text_reg_butt"
+        android:id="@+id/button_reg"
+
+        android:textSize="17dp"
+        android:textStyle="normal"
+        android:theme="@style/button_round"
+        android:layout_alignParentBottom="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="@string/butt_login"
+        android:id="@+id/bLogIn"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"
+        android:theme="@style/button_normal"
+        android:layout_above="@+id/bView"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="@string/butt_view_h"
+        android:id="@+id/bView"
+        android:layout_marginBottom="10dp"
+        android:textSize="18dp"
+        android:theme="@style/button_normal"
+        android:layout_above="@+id/bExit"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="@string/action_exit"
+        android:id="@+id/bExit"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"
+        android:theme="@style/button_normal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_item_change" android:title="@string/item_change"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <group android:id="@+id/group_admin">
+        <item
+            android:id="@+id/menu_item_user_set"
+            android:title="@string/item_set_user"
+            android:orderInCategory="100"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/menu_item_status_set" android:title="@string/item_set_status"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    </group>
+
+    <group android:id="@+id/group_user">
+
+    </group>
+</menu>

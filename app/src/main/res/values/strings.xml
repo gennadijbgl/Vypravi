@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Выправі ды атрымай</string>
+    <string name="hello">Прывітанне</string>
+    <string name="action_settings">Налады</string>
+    <string name="butt_login">Увайсці</string>
+    <string name="butt_view_h">Усе парушэнні</string>
+    <string name="balls">Балаў</string>
+    <string name="button_login">Увайсці</string>
+    <string name="loading_text">Ладаванне&#8230;</string>
+    <string name="save">Захаваць</string>
+    <string name="user_added">Карыстач дададзены!</string>
+    <string name="not_defined">Ня вызначана</string>
+    <string name="yes">Так</string>
+    <string name="no">Не</string>
+    <string name="press_back_againg">Націсніце назад яшчэ раз, каб выйсці</string>
+    <string name="user_guest_f">Прывітанне, </string>
+    <string name="user_guest_s">Госць!</string>
+
+    <string name="user_change_pic">Змяніць выяву</string>
+    <string name="user_change_pic_commit">Вы жадаеце захаваць змены?</string>
+    <string name="login">Логін</string>
+    <string name="password">Пароль</string>
+    <string name="email">Пошта</string>
+    <string name="text_first_name">Прозвішча</string>
+    <string name="text_last_name">Імя</string>
+    <string name="text_middle_name">Імя па-бацьку</string>
+    <string name="text_reg_butt">Зарэгістравацца</string>
+
+    <string name="err_msg_empty">Поле не можа быць пустым</string>
+    <string name="err_msg_length">Няправільная даўжыня</string>
+    <string name="err_msg_length_max_custom">Даўжыня тэксту не адпавядае значэнню ад 6 да </string>
+    <string name="err_msg_email">Увядзіце сапраўдны e-mail адрас</string>
+    <string name="err_msg_user_exist">Карыстач з такім логінам ужо існуе!</string>
+    <string name="err_msg_user_not_exist">Карыстач з такім логінам не знойдзены</string>
+    <string name="err_msg_password_not_pass">Праверце пароль або логін</string>
+    <string name="err_msg_date_empty">Дата не можа быць пустой</string>
+    <string name="err_msg_item_photo">Неабходна прычапіць фотаздымак ніжэй</string>
+
+    <string name="logout">Выхад з запісу</string>
+    <string name="text_user_repair_list">Парушэнні для выпраўлення</string>
+
+    <string name="text_admin_view_user">Спіс карыстачоў</string>
+    <string name="action_exit">Выйсце</string>
+    <string name="TAG_ID">tag_id_pic</string>
+
+    <string name="item_add">Дадаць парушэнне</string>
+    <string name="item_title">Загаловак парушэння</string>
+    <string name="item_description">Апісанне парушэння</string>
+    <string name="item_date_set">Абраць дату</string>
+    <string name="item_date">Абраная дата</string>
+
+    <string name="item_photo_dialog_title">Дадаванне выявы</string>
+    <string name="item_photo_dialog_new">Зрабіць новую</string>
+    <string name="item_photo_dialog_open">Адкрыць з дыска</string>
+    <string name="item_photo">Выява</string>
+    <string name="item_photo_not_present">Адсутнічае</string>
+    <string name="item_photo_present">Прычэплена</string>
+    <string name="item_photo_help">Неабходна прычапіць выяву</string>
+
+    <string name="item_new">Новае парушэнне</string>
+    <string name="item_change">Змяніць парушэнне</string>
+    <string name="item_repair">Выпраўлено</string>
+    <string name="item_set_user">Абраць карыстача</string>
+    <string name="item_set_status">Змяніць статус</string>
+    <string name="item_set_repaired">Пазначыць выпраўленым</string>
+    <string name="item_set_balls">Назначыць бал</string>
+    <string name="date_format">%1$d.%2$d.%3$d</string>
+    <string name="abort_confirm">Скасаваць змены?</string>
+
+    <string name="drawer_item_home">Мая старонка</string>
+    <string name="drawer_items_all">Усе парушэнні</string>
+    <string name="drawer_items_user">Да выпраўлення</string>
+    <string name="drawer_item_custom">Custom</string>
+    <string name="drawer_item_settings">Налады</string>
+    <string name="drawer_item_help">Дапамога</string>
+    <string name="drawer_item_open_source">Open Source</string>
+    <string name="drawer_item_contact">Contact</string>
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+</resources>

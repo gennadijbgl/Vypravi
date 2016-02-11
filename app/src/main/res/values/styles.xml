@@ -1,0 +1,179 @@
+<resources>
+
+<color name="card_color1">@color/md_deep_purple_400</color>
+    <color name="spinner_color">@color/md_grey_800</color>
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#FFCC00</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">#5fa3d0</item>
+    </style>
+
+<style name="PopupMenuMy" parent="Base.Widget.AppCompat.Light.PopupMenu">
+    <item name="android:colorButtonNormal">#8b8b8b</item>
+</style>
+
+    <style name="PopupMenuMy1" >
+        <item name="colorPrimary">@color/primary</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!-- colorAccent is used as the default value for colorControlActivated which is used to tint widgets -->
+
+
+        <item name="android:textColor">#12c456</item>
+        <item name="android:textColorPrimary">#02c4dd</item>
+        <item name="colorAccent">#FFCC00</item>
+        <item name="colorControlNormal">#e20d0d</item>
+        <item name="colorControlHighlight">#3311a3b9</item>
+        <item name="android:popupBackground">#e20d0d</item>
+        <item name="android:textColorSecondary">#f7f270</item>
+
+
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MaterialDrawerTheme.TranslucentStatus">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="material_drawer_background">#F2F2F2</item>
+        <item name="material_drawer_primary_text">#212121</item>
+        <item name="material_drawer_secondary_text">#727272 </item>
+
+        <item name="material_drawer_hint_text">#000000</item>
+        <item name="material_drawer_divider">#B6B6B6</item>
+        <item name="material_drawer_selected">@color/md_blue_500</item>
+        <item name="material_drawer_selected_text">@color/md_black_1000</item>
+        <item name="material_drawer_header_selection_text">#B6B6B6 </item>
+        <item name="material_drawer_primary_icon">@color/md_black_1000</item>
+
+        <!-- CAB :D -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:textColorSecondary">@color/md_black_1000</item>
+        <item name="android:textColorHint">#8b8b8b</item>
+
+
+        <item name="met_underlineColor">@color/md_black_1000</item>
+        <item name="met_baseColor">@color/md_black_1000</item>
+        <item name="met_primaryColor">@color/accent</item>
+        <item name="met_textColor">@color/md_black_1000</item>
+        <item name="met_textColorHint">#878787</item>
+        <item name="met_errorColor">@color/colorPrimaryDark</item>
+
+    </style>
+
+
+    <style name="mytext" parent="AppTheme">
+
+        <item name="material_drawer_background">#ff0000</item>
+        <item name="material_drawer_primary_text">#212121</item>
+        <item name="material_drawer_secondary_text">#ff0000</item>
+        <item name="met_underlineColor">@color/md_black_1000</item>
+        <item name="met_baseColor">@color/md_black_1000</item>
+        <item name="met_primaryColor">@color/accent</item>
+        <item name="met_textColor">@color/md_black_1000</item>
+        <item name="met_textColorHint">#878787</item>
+        <item name="met_errorColor">@color/colorPrimaryDark</item>
+        <item name="met_floatingLabel">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="button_round" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">#ff596d</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shape">oval</item>
+
+    </style>
+
+    <style name="edit_round" parent="Base.Widget.AppCompat.EditText">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">#ff596d</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shape">oval</item>
+    </style>
+
+    <style name="button_normal" parent="Base.V21.Theme.AppCompat">
+        <item name="android:background">#979797</item>
+        <item name="colorButtonNormal">#979797</item>
+    <item name="colorControlActivated">#ff5956</item>
+    <item name="colorControlHighlight">#323232</item>
+    <item name="android:textColor">#FFFFFF</item>
+</style>
+
+    <style name="button_normal_red" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">#ff5956</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="button_normal_purple" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/md_purple_600</item>
+        <item name="colorControlActivated">@color/md_purple_300</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="button_normal_deep_purple" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/md_deep_purple_600</item>
+        <item name="colorControlActivated">@color/md_deep_purple_300</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="button_normal_green" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/md_green_700</item>
+        <item name="colorControlActivated">@color/md_green_300</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="button_normal_yellow" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/md_yellow_600</item>
+        <item name="colorControlActivated">@color/md_yellow_300</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="button_normal_light_green" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/md_light_green_600</item>
+        <item name="colorControlActivated">@color/md_light_green_300</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="button_normal_orange" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/md_orange_600</item>
+        <item name="colorControlActivated">@color/md_orange_300</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="button_normal_cyan" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/md_cyan_600</item>
+        <item name="colorControlActivated">@color/md_cyan_300</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="button_normal_deep_orange" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/md_deep_orange_600</item>
+        <item name="colorControlActivated">@color/md_deep_orange_300</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="button_normal_blue" parent="Base.V21.Theme.AppCompat">
+        <item name="colorButtonNormal">@color/md_blue_600</item>
+        <item name="colorControlActivated">@color/md_blue_300</item>
+        <item name="colorControlHighlight">#323232</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

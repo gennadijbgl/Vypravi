@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgUserPreview"
+            android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="15"
+            android:id="@+id/textUserBalls"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="40dp"
+            android:singleLine="true" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Large TextLarge"
+            android:id="@+id/textUserFN"
+            android:layout_gravity="center_horizontal"
+            android:textIsSelectable="false"
+            android:textSize="23dp"
+
+            android:maxHeight="110dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="12124124"
+                android:id="@+id/textUserLN"
+                android:layout_gravity="center_horizontal"
+                android:textIsSelectable="false"
+                android:textSize="23dp"
+
+                android:maxHeight="110dp"
+                android:textColor="@android:color/background_dark" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="12124124"
+                android:id="@+id/textUserMN"
+                android:layout_gravity="center_horizontal"
+                android:textIsSelectable="false"
+                android:textSize="23dp"
+
+                android:maxHeight="110dp"
+                android:textColor="@android:color/background_dark" />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
